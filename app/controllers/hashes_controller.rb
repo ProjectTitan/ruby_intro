@@ -38,7 +38,7 @@ class HashesController < ApplicationController
 
     address = { "correct" => "Sears", "incorrect" => "Willis"}
 
-    @result = "replace this string with your answer"
+    @result = address["correct"]
     render 'hashes'
   end
 
